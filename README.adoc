@@ -28,6 +28,8 @@ Once done, have a look at `~/.config/nvim/init.lua` to learn about the bootstrap
 
 == Unlicenced
 
+> You can change this in your own repository, I don't care! Do what you want with this repository, attribution is appreciated but not required.
+
 Find the full http://unlicense.org/[unlicense] in the `UNLICENSE` file, but here's a snippet.
 
 ____
