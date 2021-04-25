@@ -39,8 +39,8 @@
 ;; Run script/sync.sh to update, install and clean your plugins.
 ;; Packer configuration format: https://github.com/wbthomason/packer.nvim
 (plugin.use
-  :Olical/aniseed {:branch :develop}
-  :Olical/conjure {:branch :develop}
+  :Olical/aniseed {}
+  :Olical/conjure {}
   :PeterRincker/vim-argumentative {}
   :airblade/vim-gitgutter {}
   :clojure-vim/clojure.vim {}
