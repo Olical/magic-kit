@@ -1,6 +1,30 @@
 = Magic Kit
 
-Work in progress. Neovim starter kit for working with Conjure and Aniseed, contains everything you need to get started.
+Work in progress. Neovim starter kit for working with Conjure and Aniseed, contains everything you need to get started. The goal is for you to take this and modify it to fit your needs, it is _not_ a distribution I'll constantly tweak, it's a starting point you should change as you see fit..
+
+This is NOT FINISHED but I do appreciate early feedback to shape the direction of the project.
+
+Documentation will be basically non-existent until I'm happy with it as an initial release. Even when it's done I aim for all documentation to be inside the source files themselves, so you don't need to look at multiple places to learn and change your configuration.
+
+== Requirements
+
+ * git (for cloning the project and managing plugins)
+ * Neovim 0.5+ (this is unreleased at the time of writing, you'll have to find a nightly build or compile it yourself)
+
+== Installation
+
+[source,bash]
+----
+# Clone the project into your Neovim configuration directory.
+# Make sure you don't have anything here already! Back it up if so!
+git clone git@github.com:Olical/magic-kit.git ~/.config/nvim
+
+# Perform the initial sync which will fetch all of the plugins.
+# Run then whenever you change the plugin configuration.
+~/.config/nvim/script/sync.sh
+----
+
+Once done, have a look at `~/.config/nvim/init.lua` to learn about the bootstrap process then `~/.config/nvim/fnl/magic/init.fnl` for the real beginning of your Fennel based configuration. Good luck! Have fun!
 
 == Unlicenced
 
