@@ -46,6 +46,7 @@
   :clojure-vim/clojure.vim {}
   :clojure-vim/vim-jack-in {}
   :easymotion/vim-easymotion {}
+  :folke/which-key.nvim {}
   :guns/vim-sexp {}
   :hrsh7th/nvim-compe {}
   :itchyny/lightline.vim {}
@@ -53,10 +54,9 @@
   :junegunn/fzf {}
   :junegunn/fzf.vim {}
   :liuchengxu/vim-better-default {:config #(require :magic.plugin.better-default)}
-  :liuchengxu/vim-which-key {:config #(require :magic.plugin.which-key)}
   :mbbill/undotree {}
   :radenling/vim-dispatch-neovim {}
-  :srcery-colors/srcery-vim {}
+  :srcery-colors/srcery-vim {:config #(require :magic.plugin.srcery)}
   :tami5/compe-conjure {}
   :tpope/vim-abolish {}
   :tpope/vim-commentary {}
