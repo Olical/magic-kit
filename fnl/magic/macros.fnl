@@ -1,3 +1,7 @@
+;; Trick vim-sleuth into using the right indentation for this file.
+(do
+  true)
+
 ;; These macro functions are executed at compile time to transform our code,
 ;; add more expressive syntax and create domain specific languages.
 
@@ -21,7 +25,18 @@
 ;; or are too awkward to wield for your specific problem.
 
 {;; This is just a silly example macro.
- ;; (infix-example-macro 2 + 3) => compiles to: (+ 2 3) => evaluates to: 5
+ ; (infix-example-macro 2 + 3) => compiles to: (+ 2 3) => evaluates to: 5
  :infix-example-macro
  (fn [x op y]
-   `(,op ,x ,y))}
+   `(,op ,x ,y))
+
+ ;; Create an augroup for your autocmds.
+ ; (augroup my-group
+ ;   (nvim.ex.autocmd ...))
+ :augroup
+ (fn [name ...]
+   `(do
+      (vim.cmd (.. "augroup " ,(tostring name) "\nautocmd!"))
+      ,...
+      (vim.cmd "augroup END")
+      nil))}

@@ -16,3 +16,10 @@
           (let [name (. pkgs i)
                 opts (. pkgs (+ i 1))]
             (use (a.assoc opts 1 name))))))))
+
+(defn req [name]
+  "A shortcut to building a require string for your plugin
+  configuration. Intended for use with packer's config or setup
+  configuration options. Will prefix the name with `magic.plugin.`
+  before requiring."
+  (.. "require('magic.plugin." name "')"))

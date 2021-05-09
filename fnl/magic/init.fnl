@@ -50,13 +50,13 @@
   :guns/vim-sexp {}
   :hrsh7th/nvim-compe {}
   :itchyny/lightline.vim {}
-  :jiangmiao/auto-pairs {}
+  :jiangmiao/auto-pairs {:config (plugin.req :auto-pairs)}
   :junegunn/fzf {}
   :junegunn/fzf.vim {}
-  :liuchengxu/vim-better-default {:config #(require :magic.plugin.better-default)}
+  :liuchengxu/vim-better-default {:config (plugin.req :better-default)}
   :mbbill/undotree {}
   :radenling/vim-dispatch-neovim {}
-  :srcery-colors/srcery-vim {:config #(require :magic.plugin.srcery)}
+  :srcery-colors/srcery-vim {:config (plugin.req :srcery)}
   :tami5/compe-conjure {}
   :tpope/vim-abolish {}
   :tpope/vim-commentary {}
@@ -69,6 +69,6 @@
   :tpope/vim-surround {}
   :tpope/vim-unimpaired {}
   :tpope/vim-vinegar {}
-  :w0rp/ale {}
+  :w0rp/ale {:config (plugin.req :ale)}
   :wbthomason/packer.nvim {}
   )
