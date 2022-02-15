@@ -1,6 +1,6 @@
 = Magic Kit
 
-Neovim starter kit for working with https://github.com/Olical/conjure[Conjure] and https://github.com/Olical/aniseed[Aniseed], contains everything you need to get started. The goal is for you to take this and modify it to fit your needs, it is _not_ a distribution I'll constantly tweak, it's a starting point you should change as you see fit..
+Neovim starter kit for working with https://github.com/Olical/conjure[Conjure] and https://github.com/Olical/aniseed[Aniseed], contains everything you need to get started. The goal is for you to take this and modify it to fit your needs, it is _not_ a distribution I'll constantly tweak, it's a starting point you should change as you see fit.
 
 == Requirements
 
