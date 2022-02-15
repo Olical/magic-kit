@@ -4,9 +4,10 @@
 
 (defn setup []
   (let [auto-pairs nvim.g.AutoPairs]
-    (tset auto-pairs "'" nil)
-    (tset auto-pairs "`" nil)
-    (set nvim.b.AutoPairs auto-pairs)))
+    (when auto-pairs
+      (tset auto-pairs "'" nil)
+      (tset auto-pairs "`" nil)
+      (set nvim.b.AutoPairs auto-pairs))))
 
 (augroup auto-pairs-config
   (nvim.ex.autocmd

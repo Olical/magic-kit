@@ -41,22 +41,24 @@
 (plugin.use
   :Olical/aniseed {}
   :Olical/conjure {}
+  :Olical/nvim-local-fennel {}
   :PeterRincker/vim-argumentative {}
   :airblade/vim-gitgutter {}
+  :beauwilliams/statusline.lua {:mod :statusline}
   :clojure-vim/clojure.vim {}
   :clojure-vim/vim-jack-in {}
   :easymotion/vim-easymotion {}
-  :folke/which-key.nvim {}
-  :guns/vim-sexp {}
-  :hrsh7th/nvim-compe {}
-  :itchyny/lightline.vim {}
+  :folke/which-key.nvim {:mod :which-key}
+  :guns/vim-sexp {:mod :sexp}
+  :hrsh7th/nvim-compe {:mod :compe}
   :jiangmiao/auto-pairs {:mod :auto-pairs}
-  :junegunn/fzf {}
-  :junegunn/fzf.vim {}
+  :lewis6991/impatient.nvim {}
   :liuchengxu/vim-better-default {:mod :better-default}
-  :mbbill/undotree {}
+  :marko-cerovac/material.nvim {:mod :material}
+  :mbbill/undotree {:mod :undotree}
+  :neovim/nvim-lspconfig {:mod :lspconfig}
+  :nvim-telescope/telescope.nvim {:mod :telescope :requires [[:nvim-lua/popup.nvim] [:nvim-lua/plenary.nvim]]}
   :radenling/vim-dispatch-neovim {}
-  :srcery-colors/srcery-vim {:mod :srcery}
   :tami5/compe-conjure {}
   :tpope/vim-abolish {}
   :tpope/vim-commentary {}
