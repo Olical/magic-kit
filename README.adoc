@@ -1,10 +1,6 @@
 = Magic Kit
 
-Work in progress. Neovim starter kit for working with Conjure and Aniseed, contains everything you need to get started. The goal is for you to take this and modify it to fit your needs, it is _not_ a distribution I'll constantly tweak, it's a starting point you should change as you see fit..
-
-This is NOT FINISHED but I do appreciate early feedback to shape the direction of the project.
-
-Documentation will be basically non-existent until I'm happy with it as an initial release. Even when it's done I aim for all documentation to be inside the source files themselves, so you don't need to look at multiple places to learn and change your configuration.
+Neovim starter kit for working with Conjure and Aniseed, contains everything you need to get started. The goal is for you to take this and modify it to fit your needs, it is _not_ a distribution I'll constantly tweak, it's a starting point you should change as you see fit..
 
 == Requirements
 
