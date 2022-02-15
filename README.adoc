@@ -22,6 +22,16 @@ git clone git@github.com:Olical/magic-kit.git ~/.config/nvim
 
 Once done, have a look at `~/.config/nvim/init.lua` to learn about the bootstrap process then `~/.config/nvim/fnl/magic/init.fnl` for the real beginning of your Fennel based configuration. Good luck! Have fun!
 
+== Mappings
+
+If you press a key and then wait, https://github.com/folke/which-key.nvim[which-key] will pop up with suggestions of what you can press next. Here's a few key mappings defined in the configuration to get you started.
+
+ * `<space>` is the https://learnvimscriptthehardway.stevelosh.com/chapters/06.html#leader[leader key] (`<leader>`)
+ * `,` is the https://learnvimscriptthehardway.stevelosh.com/chapters/06.html#local-leader[local leader key] (`<localleader>`)
+ * `<leader>f...` finds things with https://github.com/nvim-telescope/telescope.nvim[telescope]
+ ** Try `<leader>ff` to find files and `<leader>fb` to find buffers, there's a bunch of mappings so you'll have to experiment and rely on which-key
+ * `<leader>ut` opens https://github.com/mbbill/undotree[undotree]
+
 == Unlicenced
 
 > You can change this in your own repository, I don't care! Do what you want with this repository, attribution is appreciated but not required.
