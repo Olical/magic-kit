@@ -46,8 +46,8 @@
   :airblade/vim-gitgutter {}
   :clojure-vim/clojure.vim {}
   :clojure-vim/vim-jack-in {}
-  :easymotion/vim-easymotion {}
   :folke/which-key.nvim {:mod :which-key}
+  :ggandor/lightspeed.nvim {}
   :guns/vim-sexp {:mod :sexp}
   :hrsh7th/nvim-compe {:mod :compe}
   :jiangmiao/auto-pairs {:mod :auto-pairs}
