@@ -44,7 +44,6 @@
   :Olical/nvim-local-fennel {}
   :PeterRincker/vim-argumentative {}
   :airblade/vim-gitgutter {}
-  :beauwilliams/statusline.lua {:mod :statusline}
   :clojure-vim/clojure.vim {}
   :clojure-vim/vim-jack-in {}
   :easymotion/vim-easymotion {}
@@ -57,6 +56,7 @@
   :marko-cerovac/material.nvim {:mod :material}
   :mbbill/undotree {:mod :undotree}
   :neovim/nvim-lspconfig {:mod :lspconfig}
+  :nvim-lualine/lualine.nvim {:mod :lualine}
   :nvim-telescope/telescope.nvim {:mod :telescope :requires [[:nvim-lua/popup.nvim] [:nvim-lua/plenary.nvim]]}
   :radenling/vim-dispatch-neovim {}
   :tami5/compe-conjure {}
