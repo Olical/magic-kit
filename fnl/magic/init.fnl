@@ -42,6 +42,7 @@
   :Olical/aniseed {}
   :Olical/conjure {}
   :Olical/nvim-local-fennel {}
+  :PaterJason/cmp-conjure {}
   :PeterRincker/vim-argumentative {}
   :airblade/vim-gitgutter {}
   :clojure-vim/clojure.vim {}
@@ -49,7 +50,7 @@
   :folke/which-key.nvim {:mod :which-key}
   :ggandor/lightspeed.nvim {}
   :guns/vim-sexp {:mod :sexp}
-  :hrsh7th/nvim-compe {:mod :compe}
+  :hrsh7th/nvim-cmp {:mod :cmp}
   :jiangmiao/auto-pairs {:mod :auto-pairs}
   :lewis6991/impatient.nvim {}
   :liuchengxu/vim-better-default {:mod :better-default}
@@ -59,7 +60,6 @@
   :nvim-lualine/lualine.nvim {:mod :lualine}
   :nvim-telescope/telescope.nvim {:mod :telescope :requires [[:nvim-lua/popup.nvim] [:nvim-lua/plenary.nvim]]}
   :radenling/vim-dispatch-neovim {}
-  :tami5/compe-conjure {}
   :tpope/vim-abolish {}
   :tpope/vim-commentary {}
   :tpope/vim-dispatch {}
