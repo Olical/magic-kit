@@ -50,6 +50,10 @@
   :folke/which-key.nvim {:mod :which-key}
   :ggandor/lightspeed.nvim {}
   :guns/vim-sexp {:mod :sexp}
+  :hrsh7th/cmp-buffer {}
+  :hrsh7th/cmp-cmdline {}
+  :hrsh7th/cmp-nvim-lsp {}
+  :hrsh7th/cmp-path {}
   :hrsh7th/nvim-cmp {:mod :cmp}
   :jiangmiao/auto-pairs {:mod :auto-pairs}
   :lewis6991/impatient.nvim {}
