@@ -5,7 +5,7 @@ Neovim starter kit for working with https://github.com/Olical/conjure[Conjure] a
 == Requirements
 
  * git (for cloning the project and managing plugins)
- * Neovim 0.5+ (this is unreleased at the time of writing, you'll have to find a nightly build or compile it yourself)
+ * Neovim 0.7+
 
 == Installation
 
