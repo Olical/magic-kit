@@ -63,6 +63,7 @@
   :neovim/nvim-lspconfig {:mod :lspconfig}
   :nvim-lualine/lualine.nvim {:mod :lualine}
   :nvim-telescope/telescope.nvim {:mod :telescope :requires [[:nvim-lua/popup.nvim] [:nvim-lua/plenary.nvim]]}
+  :nvim-treesitter/nvim-treesitter {:mod :treesitter}
   :radenling/vim-dispatch-neovim {}
   :tpope/vim-abolish {}
   :tpope/vim-commentary {}
